@@ -5,11 +5,11 @@
     justify-content: center;
 }
   
-.gallery-item {
+.gallery__item {
     margin: 20px;
 }
   
-.gallery-item .thumbnail {
+.gallery__item .thumbnail {
     cursor: pointer;
     max-block-size: 180px;
     border: 5px solid rgb(173, 173, 153);
