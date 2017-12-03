@@ -32,18 +32,18 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
-.page-title {
+.title {
     text-align: flex-start;
     font-weight: 300;
     margin: 20px;
-    -webkit-text-stroke: 1px black;
-    color: white;
+    color: rgb(210, 210, 211);
+    -webkit-text-stroke: rgb(81, 115, 158);
     text-shadow:
-        3px 3px 0 #000,
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-       -1px 1px 0 #000,
-        1px 1px 0 #000;
+    1px 2px 0 rgb(155, 151, 136),
+  -2px -1px 0 black,  
+   1px -1px 0 rgb(155, 151, 136),
+   -2px 1px 0 black,
+    1px 2px 0 rgb(155, 151, 136);
     
 }
 .background {
@@ -64,7 +64,7 @@ nav {
 nav a {
   height: 60px;
   line-height: 60px;
-  color: #204156;
+  color: #575a5c;
   text-decoration: none;
 }
 .bottombar {
@@ -77,19 +77,27 @@ nav a {
     bottom: 0;
     width: 100%;
 }
-.contactbtn {
+.bottombar__contactbtn {
     float: center;
 }
 
-.contactbtn a {
+.bottombar__contactbtn a {
     cursor: pointer;
     margin-right: 30px;
     padding: 8px 18px;
     border: 1px solid #aeb5b9;
     position: relative;
     background-color: rgb(223, 221, 221);
+    color: rgb(210, 210, 211);
+    -webkit-text-stroke: rgb(81, 115, 158);
+    text-shadow:
+    1px 1px 0 black,
+  -1px -1px 0 rgb(155, 151, 136),  
+   1px -1px 0 black,
+   -1px 1px 0 rgb(155, 151, 136),
+    1px 1px 0 black;
 }
   
-.contactbtn a:active {
+.bottombar__contactbtn a:active {
     top: 2px;  /* make the button shift when its clicked */
 }
