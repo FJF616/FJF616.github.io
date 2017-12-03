@@ -67,7 +67,7 @@ nav a {
   color: #204156;
   text-decoration: none;
 }
-.bottom-bar {
+.bottombar {
     border: 2.5px solid rgb(211, 211, 198);
     margin: 2px;
     text-align: center;
@@ -77,11 +77,11 @@ nav a {
     bottom: 0;
     width: 100%;
 }
-.contact-btn {
+.contactbtn {
     float: center;
 }
 
-.contact-btn a {
+.contactbtn a {
     cursor: pointer;
     margin-right: 30px;
     padding: 8px 18px;
@@ -90,6 +90,6 @@ nav a {
     background-color: rgb(223, 221, 221);
 }
   
-.contact-btn a:active {
+.contactbtn a:active {
     top: 2px;  /* make the button shift when its clicked */
 }

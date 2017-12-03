@@ -10,19 +10,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body class="background">
-        <div class="container">
+        <div class="form">
             <form action="./index.html">
-          
-              <label for="name">Your Name</label>
-              <input type="text" id="name" name="yourname" placeholder="Your name..">
+    
+              <label>Your Name</label>
+              <input  class="form__input" type="text" placeholder="Your name..">
           
               <label for="contact info">Your Contact Info</label>
-              <input type="text" id="contact" name="contact info" placeholder="Your contact info..">
+              <input  class="form__input" type="text" placeholder="Your contact info..">
           
               <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <textarea class="form__input" placeholder="Write something.. (if more space is needed, adjust the size of this box in the lower-right corner)" style="height:200px"></textarea>
                 
-              <input type="submit" value="Submit">
+              <input class="form__submit" type="submit" value="Submit">
                 
             </form>
           </div>
