@@ -17,14 +17,14 @@ html, body {
   /* Mobile Styles */
 @media only screen and (min-width: 150px) and (max-width: 400px)  {
   body {
-      background-color: rgb(224, 224, 205);
+      background-color: transparent;
   }
 }
   
   /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 600px) {
   body {
-      background-color: rgb(224, 224, 205); 
+      background-color: transparent; 
   }
 }
   
