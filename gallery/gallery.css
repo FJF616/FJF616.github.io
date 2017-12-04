@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-between;
+
 }
   
 .gallery__item {
@@ -15,4 +16,10 @@
     cursor: pointer;
     max-block-size: 180px;
     border: 5px solid rgb(173, 173, 153);
+    border-radius: 4px;
+}
+.gallery__item--caption {
+    position: relative;
+    text-align: center;                                          
+    transform: translate -50%
 }
