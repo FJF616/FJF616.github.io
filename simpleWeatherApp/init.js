@@ -1,11 +1,11 @@
 "use strict";
 
-var searchButton = document.querySelector('button');
-var searchCity = document.querySelector('#city');
+const searchButton = document.querySelector('button');
+const searchCity = document.querySelector('#city');
 
-var loadingText = document.querySelector('#load');
-var weatherBox = document.querySelector('#weather');
+const loadingText = document.querySelector('#load');
+const weatherBox = document.querySelector('#weather');
 
-var weatherCity = weatherBox.firstElementChild;
-var weatherDescription = document.querySelector('#weatherDescription');
-var weatherTemperature = weatherBox.lastElementChild;
+const weatherCity = weatherBox.firstElementChild;
+const weatherDescription = document.querySelector('#weatherDescription');
+const weatherTemperature = weatherBox.lastElementChild;

@@ -25,6 +25,14 @@
 /* Create an active/current tablink class */
 .tab__links.active {
     background-color: #ccc;
+    color:rgb(210, 210, 211); /*hsl(53, 21%, 93%);*/
+    -webkit-text-stroke: rgb(81, 115, 158);
+    text-shadow:
+    1px .5px 0 rgb(14, 13, 13),
+  -.5px -1px 0 rgb(155, 151, 136),  
+   1px -1px 0 black,
+   -.5px 1px 0 rgb(155, 151, 136),
+    1px .5px 0 black;
 }
 
 /* Style the tab content */
