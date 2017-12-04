@@ -1,11 +1,11 @@
 "use strict";
 
 const searchButton = document.querySelector('button');
-const searchCity = document.querySelector('#city');
+var searchCity = document.querySelector('#city');
 
 const loadingText = document.querySelector('#load');
-const weatherBox = document.querySelector('#weather');
+var weatherBox = document.querySelector('#weather');
 
-const weatherCity = weatherBox.firstElementChild;
-const weatherDescription = document.querySelector('#weatherDescription');
-const weatherTemperature = weatherBox.lastElementChild;
+var weatherCity = weatherBox.firstElementChild;
+var weatherDescription = document.querySelector('#weatherDescription');
+var weatherTemperature = weatherBox.lastElementChild;
