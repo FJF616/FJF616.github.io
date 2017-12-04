@@ -5,14 +5,14 @@ searchButton.addEventListener('click', searchWeather);
 function searchWeather() {
     loadingText.style.display = 'block';
     weatherBox.style.display = 'none';
-    const cityName = searchCity.value;
+    var cityName = searchCity.value;
     if (cityName.trim().length == 0) {
         return alert('Please enter a City Name');
     }
     const http = new XMLHttpRequest();
     const apiKey = '017960c19bbaddc78e02f8df0b01c835';
-    let url = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&appid=' + apiKey;
-    let method = 'GET';
+    const url = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&appid=' + apiKey;
+    var method = 'GET';
 
     http.open(method, url);
     http.onreadystatechange = function() {

@@ -1,9 +1,9 @@
 "use strict";
 
-const searchButton = document.querySelector('button');
+var searchButton = document.querySelector('button');
 var searchCity = document.querySelector('#city');
 
-const loadingText = document.querySelector('#load');
+var loadingText = document.querySelector('#load');
 var weatherBox = document.querySelector('#weather');
 
 var weatherCity = weatherBox.firstElementChild;
