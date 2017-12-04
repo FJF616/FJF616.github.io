@@ -8,6 +8,9 @@ body {
 
 header {
     background-image: url(weather.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100px;
     background-color: lightblue;
     text-align: center;

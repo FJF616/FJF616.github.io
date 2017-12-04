@@ -24,6 +24,7 @@ body {
     background-size: cover;
     -moz-background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }   
 
   /* Mobile Styles */
@@ -69,7 +70,11 @@ nav a {
     margin: 2px;
     text-align: center;
     padding: 15px;
-    background-color: rgb(252, 252, 247);
+    /* background-color: rgb(252, 252, 247); */
+    background-image: url(./images/contact4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: fixed;
     bottom: 0;
     width: 100%;
